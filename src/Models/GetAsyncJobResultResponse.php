@@ -2,9 +2,9 @@
 
 // This file is auto-generated, don't edit it. Thanks.
 
-namespace AlibabaCloud\SDK\Videoseg\V20200320\Videoseg;
+namespace AlibabaCloud\SDK\Videoseg\V20200320\Models;
 
-use AlibabaCloud\SDK\Videoseg\V20200320\Videoseg\GetAsyncJobResultResponse\data;
+use AlibabaCloud\SDK\Videoseg\V20200320\Models\GetAsyncJobResultResponse\data;
 use AlibabaCloud\Tea\Model;
 
 class GetAsyncJobResultResponse extends Model
@@ -54,7 +54,7 @@ class GetAsyncJobResultResponse extends Model
             $model->requestId = $map['RequestId'];
         }
         if (isset($map['Data'])) {
-            $model->data = GetAsyncJobResultResponse\data::fromMap($map['Data']);
+            $model->data = data::fromMap($map['Data']);
         }
 
         return $model;

@@ -2,14 +2,14 @@
 
 // This file is auto-generated, don't edit it. Thanks.
 
-namespace AlibabaCloud\SDK\Videoseg\V20200320\Videoseg\SegmentVideoBodyResponse;
+namespace AlibabaCloud\SDK\Videoseg\V20200320\Models;
 
 use AlibabaCloud\Tea\Model;
 
-class data extends Model
+class SegmentVideoBodyRequest extends Model
 {
     /**
-     * @description VideoUrl
+     * @description videoUrl
      *
      * @var string
      */
@@ -34,7 +34,7 @@ class data extends Model
     /**
      * @param array $map
      *
-     * @return data
+     * @return SegmentVideoBodyRequest
      */
     public static function fromMap($map = [])
     {
